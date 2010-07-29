@@ -1,0 +1,14 @@
+170,179d169
+< ## swaps a bracket term with the string before it and returns them space-separated
+< ## does not check for well formedness.
+< def swapbracket(str): 
+<     list=str.partition("(")
+<     ## if there is no (, do not modify
+<     if len(list[2])==0:
+<         return str
+<     else:   
+<         return list[1]+list[2]+" "+list[0].rstrip()
+< 
+468,469d457
+<         elif o_wordswap=="bracket" and swap==1:
+<             label=swapbracket(pin.label)
