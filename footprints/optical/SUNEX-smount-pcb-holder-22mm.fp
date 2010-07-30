@@ -25,7 +25,7 @@ Element[0x0 "Sunex S-mount PCB lens holder (CMT103, CMT821)" "" "" 0 0 0 0 0 100
 	ElementLine [+10mm -10mm +10mm -2.3mm 0.5mm]
 	ElementLine [+11mm -2.3mm +10mm -2.3mm 0.5mm]
 	ElementArc [+11mm 0 2.3mm 2.3mm 270 -180 0.5mm]
-	Pin [+11mm 0mm 0mm 0mm 0mm 1.6mm "right" "1" "hole"]
+	Pin [+11mm 0mm 0mm 0mm 0mm 1.6mm "right" "2" "hole"]
 	ElementLine [+11mm +2.3mm +10mm +2.3mm 0.5mm]
 	ElementLine [+10mm +2.3mm +10mm +10mm 0.5mm]
 	
