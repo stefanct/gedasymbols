@@ -25,8 +25,8 @@ version	20100726 1
 name	ATmega32U2					
 device	ATmega32U2					
 refdes	U?					
-footprint	TQFP32_7/QFN44_7					
-description	ATmega32U2/16U2/8U2					
+footprint	TQFP32_7/QFN44_7?					
+description	ATmega32U2/ATmega16U2/ATmega8U2					
 documentation	http://atmel.com/dyn/resources/prod_documents/doc7799.pdf					
 author	Martin Kunz					
 numslots	0					

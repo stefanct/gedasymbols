@@ -61,7 +61,7 @@ pinnumber=25
 T 300 3650 5 8 0 1 0 8 1
 pinseq=6
 T 450 3700 9 8 1 1 0 0 1
-pinlabel=PC5 (PCINT9,OC1B)
+pinlabel=PC5 (PCINT9, OC1B)
 T 450 3700 5 8 0 1 0 2 1
 pintype=io
 }
@@ -72,7 +72,7 @@ pinnumber=23
 T 300 3350 5 8 0 1 0 8 1
 pinseq=7
 T 450 3400 9 8 1 1 0 0 1
-pinlabel=PC6 (OC1A,PCINT8)
+pinlabel=PC6 (OC1A, PCINT8)
 T 450 3400 5 8 0 1 0 2 1
 pintype=io
 }
@@ -359,13 +359,13 @@ ATmega32U2
 T 400 5800 5 10 0 0 0 0 1
 device=ATmega32U2
 T 400 6000 5 10 0 0 0 0 1
-footprint=TQFP32_7/QFN44_7
+footprint=TQFP32_7/QFN44_7?
 T 400 6200 5 10 0 0 0 0 1
 author=Martin Kunz
 T 400 6400 5 10 0 0 0 0 1
 documentation=http://atmel.com/dyn/resources/prod_documents/doc7799.pdf
 T 400 6600 5 10 0 0 0 0 1
-description=ATmega32U2/16U2/8U2
+description=ATmega32U2/ATmega3216U2/ATmega328U2
 T 400 6800 5 10 0 0 0 0 1
 numslots=0
 T 400 7000 5 10 0 0 0 0 1
