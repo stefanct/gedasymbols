@@ -1,7 +1,3 @@
-# author: Stefan Tauner
-# dist-license: CC-BY-SA-2.5
-# use-license: unlimited
-
 Element[0x0 "Tyco Alcoswitch FSM JSM (FSM2JSM, FSM4JSM, FSM6JSM, FSM8JSM, FSM14JSM etc.)" "SWx" "fsmjsma" 26575 15000 -5000 -22000 0 100 ""]
 (
 	# signal pads
@@ -25,7 +21,6 @@ Element[0x0 "Tyco Alcoswitch FSM JSM (FSM2JSM, FSM4JSM, FSM6JSM, FSM8JSM, FSM14J
 	ElementLine [-8850 -8850 -2950 -8850 1000]
 	ElementLine [2950 -10325 -2950 -8850 1000]
 
-	#
 	Attribute("author" "Alexander Kurz, Stefan Tauner")
 	Attribute("copyright" "2008 Alexander Kurz, 2010 Stefan Tauner")
 	Attribute("use-license" "Unlimited")
