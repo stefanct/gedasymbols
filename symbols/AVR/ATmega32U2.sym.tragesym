@@ -13,7 +13,7 @@ wordswap	bracket
 rotate_labels	yes
 sort_labels	no					
 generate_pinseq	yes					
-sym_width	3900
+sym_width	4000
 pinwidthvertical	300					
 pinwidthhorizontal	300					
 						
@@ -21,11 +21,12 @@ pinwidthhorizontal	300
 # name will be printed in the top of the symbol						
 # if you have a device with slots, you'll have to use slot= and slotdef=						
 # use comment= if there are special information you want to add						
-version	20100726 1					
+version	20100804 1					
 name	ATmega32U2					
 device	ATmega32U2					
 refdes	U?					
-footprint	TQFP32_7/QFN44_7?					
+footprint	TQFP32_7
+comment	available footprints are: TQFP32_7, QFN32_7_EP
 description	ATmega32U2/ATmega16U2/ATmega8U2					
 documentation	http://atmel.com/dyn/resources/prod_documents/doc7799.pdf					
 author	Martin Kunz					
@@ -61,7 +62,7 @@ use-license		unlimited
 5		io	line	l		PC2 (PCINT11, AIN2)
 26		io	line	l		PC4 (PCINT10)
 25		io	line	l		PC5 (PCINT9, OC1B)
-23		io	line	l		PC6 (OC1A, PCINT8)
+23		io	line	l		PC6 (PCINT8, OC1A)
 22		io	line	l		PC7 (INT4, ICP1, CLKO)
 			spacer	l
 27		pwr	line	l		UCAP
@@ -77,10 +78,10 @@ use-license		unlimited
 7		io	line	r		PD1 (AIN0, INT1)
 8		io	line	r		PD2 (RXD1, AIN1, INT2)
 9		io	line	r		PD3 (TXD1, INT3) 
-10		io	line	r		PD4 (\_INT5\_, AIN3) 
+10		io	line	r		PD4 (AIN3, INT5) 
 11		io	line	r		PD5 (XCK, AIN4, PCINT12) 
 12		io	line	r		PD6 (\_RTS\_, AIN5, INT6) 
-13		io	line	r		PD7 (\_HWB\_, AIN6, T0, INT7) 
+13		io	line	r		PD7 (\_HWB\_, T0, \_CTS\_, AIN6, INT7) 
 			spacer	r
 14		io	line	r		PB0 (\_SS\_, PCINT0) 
 15		io	line	r		PB1 (SCLK, PCINT1)
