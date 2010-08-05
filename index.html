@@ -1,11 +1,38 @@
 <!--#set var="title" value="Stefan Tauner" -->
 <!--#include virtual="/header.html" -->
-<h2>Footprints</h2>
+
+<h2><a href="Symbols">Symbols</a></h2>
+
+<a href="symbols/adc">Analog digital converters (ADCs)</a></br>
 
 <a href="symbols/AVR">Atmel AVR</a>:
-
 <ul>
-<li> <a href="symbols/AVR/ATmega32U2.sym">ATmega32U2 (ATmega8U2, ATmega16U2)</a>
+<li> <a href="symbols/AVR/ATmega32U2.sym">ATmega32U2 (ATmega8U2, ATmega16U2)</a> generated with the tragesym bracetswap patch below.</li>
 </ul>
 
+<a href="symbols/logic">Logic ICs (74-family etc.)</a></br>
+
+<a href="symbols/power">Power-related stuff: supplies, regulators, power symbols</a></br>
+
+<a href="symbols/misc">Stuff.</a></br>
+
+<h2><a href="footprints/">Footprints</a></h2>
+
+<a href="footprints/connectors">Various Connectors</a></br>
+<a href="footprints/murata">Murata filters etc.</a></br>
+
+<a href="footprints/optical">Optical devices (PSDs, lens holders etc.)</a></br>
+
+<a href="footprints/misc">Stuff.</a></br>
+
+<h2><a href="tools">Tools</a></h2>
+Patches etc.
+<ul>
+<li> <a href="tools/tragesym.bracketswap.patch">tragesym.bracketswap.patch</a>
+Teaches tragesym a new value for the wordswap option: "bracket".
+If enabled, tragesym will swap at the first round bracket encountered, instead of the "interesting" LIFO/stack behavior at spaces.</li>
+</ul>
+
+<h2>Contact</h2>
+You can reach me via the gEDA users mailing list.
 <!--#include virtual="/trailer.html" -->
