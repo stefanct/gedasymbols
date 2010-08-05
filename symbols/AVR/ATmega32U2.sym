@@ -112,22 +112,22 @@ pintype=pwr
 P 100 1900 400 1900 1 0 0
 {
 T 300 1950 5 8 1 1 0 6 1
-pinnumber=29
+pinnumber=30
 T 300 1850 5 8 0 1 0 8 1
 pinseq=11
 T 450 1900 9 8 1 1 0 0 1
-pinlabel=D+
+pinlabel=D-
 T 450 1900 5 8 0 1 0 2 1
 pintype=io
 }
 P 100 1600 400 1600 1 0 0
 {
 T 300 1650 5 8 1 1 0 6 1
-pinnumber=30
+pinnumber=29
 T 300 1550 5 8 0 1 0 8 1
 pinseq=12
 T 450 1600 9 8 1 1 0 0 1
-pinlabel=D-
+pinlabel=D+
 T 450 1600 5 8 0 1 0 2 1
 pintype=io
 }
@@ -145,22 +145,22 @@ pintype=pwr
 P 100 1000 400 1000 1 0 0
 {
 T 300 1050 5 8 1 1 0 6 1
-pinnumber=32
+pinnumber=4
 T 300 950 5 8 0 1 0 8 1
 pinseq=14
 T 450 1000 9 8 1 1 0 0 1
-pinlabel=AVCC
+pinlabel=VCC
 T 450 1000 5 8 0 1 0 2 1
 pintype=pwr
 }
 P 100 700 400 700 1 0 0
 {
 T 300 750 5 8 1 1 0 6 1
-pinnumber=4
+pinnumber=32
 T 300 650 5 8 0 1 0 8 1
 pinseq=15
 T 450 700 9 8 1 1 0 0 1
-pinlabel=VCC
+pinlabel=AVCC
 T 450 700 5 8 0 1 0 2 1
 pintype=pwr
 }

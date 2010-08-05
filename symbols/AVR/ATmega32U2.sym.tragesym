@@ -67,11 +67,11 @@ use-license		unlimited
 			spacer	l
 27		pwr	line	l		UCAP
 28		pwr	line	l		UGND
-29		io	line	l		D+
 30		io	line	l		D-
+29		io	line	l		D+
 31		pwr	line	l		UVCC
-32		pwr	line	l		AVCC
 4		pwr	line	l	Vcc	VCC
+32		pwr	line	l		AVCC
 3		pwr	line	l	GND	GND
 
 6		io	line	r		PD0 (OC0B, INT0)
