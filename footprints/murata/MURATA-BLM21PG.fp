@@ -1,3 +1,6 @@
+# author: Stefan Tauner
+# dist-license: GPL v3
+# use-license: unlimited
 # crude approximation of what murata specified
 
 # Pin[rX rY Thickness Clearance Mask Drill "Name" "Number" SFlags]
