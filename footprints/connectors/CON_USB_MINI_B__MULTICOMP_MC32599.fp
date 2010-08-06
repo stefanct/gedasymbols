@@ -8,9 +8,9 @@ Element[0x0 "Multicomp Mini-USB-AB through connector (MC32599)" "CONNx" "MC32599
 
 	# signal pins
 	Pin[+1.6mm    0mm 1.15mm 0.6mm 1.15mm 1.0mm "VCC" "1" 0]
-	Pin[-0.8mm -1.2mm 1.15mm 0.6mm 1.15mm 1.0mm "D-" "2" 0]
+	Pin[+0.8mm -1.2mm 1.15mm 0.6mm 1.15mm 1.0mm "D-" "2" 0]
 	Pin[+0.0mm    0mm 1.15mm 0.6mm 1.15mm 1.0mm "D+" "3" 0]
-	Pin[+0.8mm -1.2mm 1.15mm 0.6mm 1.15mm 1.0mm "ID" "4" 0]
+	Pin[-0.8mm -1.2mm 1.15mm 0.6mm 1.15mm 1.0mm "ID" "4" 0]
 	Pin[-1.6mm    0mm 1.15mm 0.6mm 1.15mm 1.0mm "GND" "5" 0]
 	
 	# holes
