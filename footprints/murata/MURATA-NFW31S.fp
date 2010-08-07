@@ -20,11 +20,11 @@ Element[0 "Murata Pi-Filter (NFW31S, NFE31P)" "" "" 0 0 0 0 0 100 ""]
 ##	lower pin
 	#Pin[0mm +1.5mm 0.6mm 0.6mm 0.6mm 0.4mm "" "2" ""]
 ##	pad
-	Pad[0mm +1.2mm 0mm -1.2mm 0.6mm 0.6mm 0.7mm "" "2" "square"]
+	Pad[0mm +1.2mm 0mm -1.2mm 0.6mm 0.3mm 0.7mm "" "2" "square"]
 
 ## pad 1 and 3
-   Pad[-1.6mm 0mm -2mm 0mm 1.3mm 1.3mm 1.4mm "" "1" "square"]
-   Pad[+1.6mm 0mm +2mm 0mm 1.3mm 1.3mm 1.4mm "" "3" "square"]
+   Pad[-1.6mm 0mm -2mm 0mm 1.3mm 0.3mm 1.4mm "" "1" "square"]
+   Pad[+1.6mm 0mm +2mm 0mm 1.3mm 0.3mm 1.4mm "" "3" "square"]
 
 ## outline for debugging only!
 	#ElementLine [-1.75mm -0.9mm +1.75mm -0.9mm 0.1mm]
