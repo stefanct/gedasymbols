@@ -9,8 +9,8 @@ Element[0x0 "Molex 8P8C (RJ45) through hole connector/jack (43860-0001, 43860-20
 # Pad[rX1 rY1 rX2 rY2 Thickness Clearance Mask "Name" "Number" SFlags]
 
 	# holes
-	Pin[0mm 0mm 0mm 0.1mm 0mm 3.3mm "" "" "hole"]
-	Pin[-12.7mm 0mm 0mm 0.1mm 0mm 3.3mm "" "" "hole"]
+	Pin[0mm 0mm 0mm 3.8mm 0mm 3.3mm "" "" "hole"]
+	Pin[-12.7mm 0mm 0mm 3.8mm 0mm 3.3mm "" "" "hole"]
 
 	# signal pins
 	Pin[-2.794mm -2.54mm 1.3mm 0.6mm 1.3mm 1mm "" "1" 0]
