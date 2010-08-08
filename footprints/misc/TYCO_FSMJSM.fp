@@ -2,10 +2,10 @@ Element[0x0 "Tyco Alcoswitch FSM JSM (FSM2JSM, FSM4JSM, FSM6JSM, FSM8JSM, FSM14J
 (
 	# signal pads
 #	Pad[rX1 rY1 rX2 rY2 Thickness Clearance Mask "Name" "Number" SFlags]
-	Pad[ -2.3mm -4.9mm -2.3mm -4.2mm 1.4mm 1000 4543 "3"  "3" "square"]
-	Pad[ +2.3mm -4.9mm +2.3mm -4.2mm 1.4mm 1000 4543 "1"  "1" "square"]
-	Pad[ -2.3mm +4.9mm -2.3mm +4.2mm 1.4mm 1000 4543 "4"  "4" "square"]
-	Pad[ +2.3mm +4.9mm +2.3mm +4.2mm 1.4mm 1000 4543 "2"  "2" "square"]
+	Pad[ -2.3mm -4.9mm -2.3mm -4.2mm 1.4mm 0.5mm 4543 "3"  "3" "square"]
+	Pad[ +2.3mm -4.9mm +2.3mm -4.2mm 1.4mm 0.5mm 4543 "1"  "1" "square"]
+	Pad[ -2.3mm +4.9mm -2.3mm +4.2mm 1.4mm 0.5mm 4543 "4"  "4" "square"]
+	Pad[ +2.3mm +4.9mm +2.3mm +4.2mm 1.4mm 0.5mm 4543 "2"  "2" "square"]
 	# the element box
 	ElementLine [-11800 -11800 -11800 11800 1000]
 	ElementLine [11800 -11800 11800 11800 1000]
