@@ -7,17 +7,17 @@ Element[0x0 "Multicomp Mini-USB-AB through connector (MC32599)" "CONNx" "MC32599
 # Pad[rX1 rY1 rX2 rY2 Thickness Clearance Mask "Name" "Number" SFlags]
 
 	# signal pins
-	Pin[+1.6mm    0mm 1.15mm 0.6mm 1.15mm 1.0mm "VCC" "1" 0]
-	Pin[+0.8mm -1.2mm 1.15mm 0.6mm 1.15mm 1.0mm "D-" "2" 0]
-	Pin[+0.0mm    0mm 1.15mm 0.6mm 1.15mm 1.0mm "D+" "3" 0]
-	Pin[-0.8mm -1.2mm 1.15mm 0.6mm 1.15mm 1.0mm "ID" "4" 0]
-	Pin[-1.6mm    0mm 1.15mm 0.6mm 1.15mm 1.0mm "GND" "5" 0]
+	Pin[+1.6mm    0mm 1.1mm 0.6mm 1.15mm 0.55mm "VCC" "1" 0]
+	Pin[+0.8mm -1.2mm 1.1mm 0.6mm 1.15mm 0.55mm "D-" "2" 0]
+	Pin[+0.0mm    0mm 1.1mm 0.6mm 1.15mm 0.55mm "D+" "3" 0]
+	Pin[-0.8mm -1.2mm 1.1mm 0.6mm 1.15mm 0.55mm "ID" "4" 0]
+	Pin[-1.6mm    0mm 1.1mm 0.6mm 1.15mm 0.55mm "GND" "5" 0]
 	
 	# holes
-	Pin[-3.65mm -0.9mm 0mm 2mm 0mm 1.6mm "" "6" "hole"]
-	Pin[+3.65mm -0.9mm 0mm 2mm 0mm 1.6mm "" "6" "hole"]
-	Pin[-3.65mm -5.55mm 2.2mm 0.6mm 2.2mm 1.6mm "" "6" 0]
-	Pin[+3.65mm -5.55mm 2.2mm 0.6mm 2.2mm 1.6mm "" "6" 0]
+	Pin[-3.65mm -0.9mm  1.7mm 0.6mm 1.8mm 1.10mm "" "6" 0]
+	Pin[+3.65mm -0.9mm  1.7mm 0.6mm 1.8mm 1.10mm "" "6" 0]
+	Pin[-3.65mm -5.55mm 1.9mm 0.6mm 2.0mm 1.35mm "" "6" 0]
+	Pin[+3.65mm -5.55mm 1.9mm 0.6mm 2.0mm 1.35mm "" "6" 0]
 
 	# housing
 	ElementLine [-4.05mm -8.7mm +4.05mm -8.7mm 0.3mm]
@@ -30,7 +30,8 @@ Element[0x0 "Multicomp Mini-USB-AB through connector (MC32599)" "CONNx" "MC32599
 
 	Attribute("author" "Stefan Tauner")
 	Attribute("copyright" "2010 Stefan Tauner")
+	Attribute("comment" "hole sizes are smaller than in the datasheet")
 	Attribute("use-license" "Unlimited")
 	Attribute("dist-license" "GPL 3")
-	Attribute("ref" "drawing numbers: Multicomp M10001948 2009-02-26 and Molex SD-54819-026")
+	Attribute("ref" "physical sample;drawing numbers: Multicomp M10001948 2009-02-26 and Molex SD-54819-026")
 )
