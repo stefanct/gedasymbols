@@ -1,0 +1,72 @@
+# This is the template file for creating symbols with tragesym
+# every line starting with '#' is a comment line.
+
+[options]
+# wordswap swaps labels if the pin is on the right side an looks like this:
+#   "PB1 (CLK)". That's useful for micro controller port labels
+# rotate_labels rotates the pintext of top and bottom pins
+#   this is useful for large symbols like FPGAs with more than 100 pins
+# sort_labels will sort the pins by it's labels
+#   useful for address ports, busses, ...
+wordswap=yes
+rotate_labels=yes
+sort_labels=no
+generate_pinseq=yes
+sym_width=2400
+pinwidthvertical=300
+pinwidthhorizontal=300
+
+[geda_attr]
+# name will be printed in the top of the symbol
+# name is only some graphical text, not an attribute
+# version specifies a gschem version.
+# if you have a device with slots, you'll have to use slot= and slotdef=
+# use comment= if there are special information you want to add
+version=20060113 1
+name=7416245
+device=MC74LCX16245,74LCX16245MTD,SN74LVCH16245A
+refdes=U?
+footprint=TSSOP48
+description=16-Bit Transceiver
+documentation=http://www.onsemi.com/pub/Collateral/MC74LCX16245-D.PDF
+author=Stefan Tauner
+dist-license=GPLv3, see http://www.gnu.org/licenses/gpl-3.0.txt
+use-license=unlimited
+numslots=0
+#slot=1
+#slotdef=1:
+#slotdef=2:
+#slotdef=3:
+#slotdef=4:
+#comment=
+#comment=
+#comment=
+
+[pins]
+# tabseparated list of pin descriptions
+# ----------------------------------------
+# pinnr is the physical number of the pin
+# seq is the pinseq= attribute, leave it blank if it doesn't matter
+# type can be (in, out, io, oc, oe, pas, tp, tri, clk, pwr)
+# style can be (line,dot,clk,dotclk,none). none if only want to add a net
+# posit. can be (l,r,t,b) or empty for nets
+# net specifies the name of the net. Vcc or GND for example.
+# label represents the pinlabel.
+#	negation lines can be added with "\_" example: \_enable\_ 
+#	if you want to write a "\" use "\\" as escape sequence
+#-----------------------------------------------------
+#pinseq	type	style	posit.	net	label	
+#-----------------------------------------------------
+4		pwr 	line	l	GND	GND
+45		pwr 	line	l	GND	GND
+10		pwr 	line	l	GND	GND
+39		pwr 	line	l	GND	GND
+15		pwr 	line	l	GND	GND
+34		pwr 	line	l	GND	GND
+21		pwr 	line	l	GND	GND
+28		pwr 	line	l	GND	GND
+
+7		pwr 	line	r	Vcc	VCC
+42		pwr 	line	r	Vcc	VCC
+18		pwr 	line	r	Vcc	VCC
+31		pwr 	line	r	Vcc	VCC
