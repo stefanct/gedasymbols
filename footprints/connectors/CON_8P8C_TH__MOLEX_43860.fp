@@ -13,14 +13,14 @@ Element[0x0 "Molex 8P8C (RJ45) through hole connector/jack (43860-0001, 43860-20
 	Pin[-12.7mm 0mm 0mm 3.8mm 0mm 3.3mm "" "" "hole"]
 
 	# signal pins
-	Pin[-2.794mm -2.54mm 1.5mm 0.6mm 1.3mm 1mm "" "1" 0]
-	Pin[-3.810mm -4.32mm 1.5mm 0.6mm 1.3mm 1mm "" "2" 0]
-	Pin[-4.826mm -2.54mm 1.5mm 0.6mm 1.3mm 1mm "" "3" 0]
-	Pin[-5.842mm -4.32mm 1.5mm 0.6mm 1.3mm 1mm "" "4" 0]
-	Pin[-6.858mm -2.54mm 1.5mm 0.6mm 1.3mm 1mm "" "5" 0]
-	Pin[-7.874mm -4.32mm 1.5mm 0.6mm 1.3mm 1mm "" "6" 0]
-	Pin[-8.890mm -2.54mm 1.5mm 0.6mm 1.3mm 1mm "" "7" 0]
-	Pin[-9.906mm -4.32mm 1.5mm 0.6mm 1.3mm 1mm "" "8" 0]
+	Pin[-2.794mm -2.54mm 1.5mm 0.6mm 1.8mm 1mm "" "1" 0]
+	Pin[-3.810mm -4.32mm 1.5mm 0.6mm 1.8mm 1mm "" "2" 0]
+	Pin[-4.826mm -2.54mm 1.5mm 0.6mm 1.8mm 1mm "" "3" 0]
+	Pin[-5.842mm -4.32mm 1.5mm 0.6mm 1.8mm 1mm "" "4" 0]
+	Pin[-6.858mm -2.54mm 1.5mm 0.6mm 1.8mm 1mm "" "5" 0]
+	Pin[-7.874mm -4.32mm 1.5mm 0.6mm 1.8mm 1mm "" "6" 0]
+	Pin[-8.890mm -2.54mm 1.5mm 0.6mm 1.8mm 1mm "" "7" 0]
+	Pin[-9.906mm -4.32mm 1.5mm 0.6mm 1.8mm 1mm "" "8" 0]
 	
 
 	# housing. center is at -6.35mm/+2.415mm. outline is 15.75 x 14.99 mm²

@@ -22,11 +22,14 @@ Element[0 "Murata 3-pin-cap (NFM21C, NFM21PC, NFR21G, NFL21S)" "" "" 0 0 0 0 0 1
 ##	lower pin
 	#Pin[0mm +1.15mm 0.5mm 0.5mm 0.5mm 0.4mm "" "2" ""]
 ##	upper pad
-	Pad[0mm -0.6mm 0mm -0.65mm 0.6mm 0.3mm 0.6mm "" "2" "square"]
+#	Pad[0mm -0.6mm 0mm -0.65mm 0.6mm 0.3mm 0.6mm "" "2" "square"]
 ##	whole copper, but with mask
-	Pad[0mm -1.25mm 0mm +1.25mm 0.6mm 0.3mm -0.1mm "" "2" "square"]
+#	Pad[0mm -1.25mm 0mm +1.25mm 0.6mm 0.3mm 0mm "" "2" "square"]
 ##	upper pad
-	Pad[0mm +0.6mm 0mm +0.65mm 0.6mm 0.3mm 0.6mm "" "2" "square"]
+#	Pad[0mm +0.6mm 0mm +0.65mm 0.6mm 0.3mm 0.6mm "" "2" "square"]
+
+# middle pad
+	Pad[0mm -0.7mm 0mm +0.7mm 0.6mm 0.3mm 0.6mm "" "2" "square"]
 
 ## pad 1 and 3
    Pad[+1.1mm 0mm +1.3mm 0mm 0.8mm 0.3mm 0.85mm "" "1" "square"]
