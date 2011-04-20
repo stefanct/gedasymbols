@@ -1,0 +1,14 @@
+--- tragesym-old	2011-04-20 18:05:12.465255009 +0200
++++ tragesym-new	2011-04-20 18:05:56.135255004 +0200
+@@ -457,8 +457,9 @@
+             label=swapwords(pin.label)
+         else:
+             label=pin.label
+-        f.write("T %i"%pinlx+" %i"%pinly+" 9 8 1 1 %i"%pinlr+" %i 1\n"%pinla)
+-        f.write("pinlabel="+label+"\n")
++        if len(label)!=0:
++            f.write("T %i"%pinlx+" %i"%pinly+" 9 8 1 1 %i"%pinlr+" %i 1\n"%pinla)
++            f.write("pinlabel="+label+"\n")
+         f.write("T %i"%pinax+" %i"%pinay+" 5 8 0 1 %i"%pinar+" %i 1\n"%pinaa)
+         f.write("pintype="+pin.type+"\n")
+         f.write("}\n")
